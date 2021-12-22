@@ -15,7 +15,7 @@
   </head>
   <body>
 
-    <nav class="nav">
+    <nav class="nav" id="nav">
       <div class="container">
         <div class="row d-flex justify-content-between align-items-center">
           <div class="logo col col-sm-2">
@@ -24,8 +24,14 @@
             </a>
           </div>
 
-          <div class="col col-sm-10">
-            <ul class="nav-bar">
+          <div class="col-2  d-block d-md-none">
+            <div class="menu" id="menu">
+              <div class="menu-icon"></div>
+            </div>
+          </div>
+
+          <div class="col col-sm-10 d-none d-md-block">
+            <ul class="nav-bar" id="navbar">
               <li class="nav-bar__item">
                 <a href="./../index.html" class="nav-bar__item--link"> হোম </a>
               </li>
@@ -81,8 +87,7 @@
             >
           </div>
           <div class="col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-            accusantium?
+            শিখবো আমরা বিশ্ব জয়ের তরে!
           </div>
         </div>
         <div class="row text-center mt-5">
@@ -98,7 +103,7 @@
       </div>
     </footer>
     
-
+    <script src="./../scripts/app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

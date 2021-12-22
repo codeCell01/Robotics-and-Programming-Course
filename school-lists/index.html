@@ -12,10 +12,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="shortcut icon" href="../assets/images/Diversity-Avatars-Avatars-Robot-03.ico" type="image/x-icon">
   </head>
   <body>
 
-    <nav class="nav">
+    <nav class="nav" id="nav">
       <div class="container">
         <div class="row d-flex justify-content-between align-items-center">
           <div class="logo col col-sm-2">
@@ -24,8 +25,14 @@
             </a>
           </div>
 
-          <div class="col col-sm-10">
-            <ul class="nav-bar">
+          <div class="col-2  d-block d-md-none">
+            <div class="menu" id="menu">
+              <div class="menu-icon"></div>
+            </div>
+          </div>
+
+          <div class="col col-sm-10 d-none d-md-block">
+            <ul class="nav-bar" id="navbar">
               <li class="nav-bar__item">
                 <a href="../index.html" class="nav-bar__item--link"> হোম </a>
               </li>
@@ -44,18 +51,14 @@
       </div>
     </nav>
     
-<main class="my-5">
+<main class="my-5 school-lists">
   <div class="container">
     <h3 class="heading-tertiary mb-5 text-center">
       যেসকল স্কুল অংশগ্রহণ করেছেঃ 
     </h3>
 
     <ul class="list-group">
-      <a href="#" class="list-group-item list-group-item-action">1. Comilla Modern College</a>
-      <a href="#" class="list-group-item list-group-item-action">1. School Name</a>
-      <a href="#" class="list-group-item list-group-item-action">1. School Name</a>
-      <a href="#" class="list-group-item list-group-item-action">1. School Name</a>
-      <a href="#" class="list-group-item list-group-item-action">1. School Name</a>
+      <a href="./comilla-modern-college.html" class="list-group-item list-group-item-action">1. Comilla Modern College</a>
       <a href="#" class="list-group-item list-group-item-action">1. School Name</a>
       <a href="#" class="list-group-item list-group-item-action">1. School Name</a>
       <a href="#" class="list-group-item list-group-item-action">1. School Name</a>
@@ -77,8 +80,7 @@
             >
           </div>
           <div class="col">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-            accusantium?
+            শিখবো আমরা বিশ্ব জয়ের তরে!
           </div>
         </div>
         <div class="row text-center mt-5">
@@ -93,6 +95,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./../scripts/app.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
