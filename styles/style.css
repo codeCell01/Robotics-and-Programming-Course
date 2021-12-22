@@ -271,3 +271,8 @@ Schools
 .school-lists {
   min-height: 70vh;
 }
+
+.list-group-item {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
